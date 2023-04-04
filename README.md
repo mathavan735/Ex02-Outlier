@@ -19,7 +19,7 @@ You are given bhp.csv which contains property prices in the city of banglore, In
 DEVELOPED BY: Mathavan s
 
 REFERENCE NO: 212221220031
-
+```
 import pandas as pd
 import seaborn as sns
 import numpy as np
@@ -65,7 +65,7 @@ high=q3+1.5*iqr
 df_fil=df[((df<=high)&(df>=low))]
 outliers=np.setdiff1d(df['height'],df_fil['height'])
 print("THE OUTLIERS IN THE DATA SET height:",outliers)
-
+```
 
 ![Screenshot (16)](https://user-images.githubusercontent.com/119560261/227783342-d25b5b69-26e5-4e7e-a0f1-bba37886cf19.png)
 ![Screenshot (17)](https://user-images.githubusercontent.com/119560261/227783357-8429d78f-6d61-4a39-8009-27568154f221.png)
